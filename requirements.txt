@@ -1,0 +1,7 @@
+librosa 
+numpy 
+matplotlib
+tensorflow
+datasets
+pandas
+tqdm
