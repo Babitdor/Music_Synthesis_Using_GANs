@@ -2,6 +2,16 @@
 
 This project aims to synthesize music using a Conditional Generative Adversarial Network (Conditional-GAN). The model generates music by learning from various audio features, including **MFCC**, **delta**, **delta_2**, **chroma**, **centroid**, **rolloff**, **contrast**, **zero-crossing rate (ZC)**, and **root mean square error (RMSE)**. These features are extracted from audio clips and used as input conditions for the generator network to create realistic music sequences.
 
+## Dataset
+
+This project uses the **GTZAN Dataset**, a widely used dataset for music genre classification and audio processing tasks. The GTZAN Dataset consists of 1,000 audio tracks, each 30 seconds long, in 10 different genres, with 100 tracks per genre. The dataset is ideal for training models to learn music structure and features.
+
+### Key points about the GTZAN Dataset:
+- **1,000 audio tracks** (30 seconds each)
+- **10 genres**: classical, jazz, rock, metal, etc.
+- **Sampling rate**: 22.05 kHz
+- **Mono-channel** audio files
+
 ## Project Overview
 
 The key objective is to train a Conditional GAN to generate musical samples that follow a distribution learned from real audio data. The generator is conditioned on audio features, and the discriminator evaluates whether the generated samples are realistic or not. The model architecture includes:
