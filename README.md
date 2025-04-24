@@ -33,7 +33,7 @@ The key objective is to train a Conditional GAN to generate musical samples that
 ## Requirements
 
 - Python 3.7+
-- TensorFlow / Keras
+- Pytorch
 - Librosa (for audio feature extraction)
 - NumPy
 - Matplotlib (for visualization)
