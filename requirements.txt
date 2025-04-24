@@ -1,7 +1,7 @@
 librosa 
 numpy 
 matplotlib
-tensorflow
+torch
 datasets
 pandas
 tqdm
